@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us - Aks Skills Academy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+            <div class="logo-section">
+                <img src="aks-logo.png" alt="Aks Skills Academy Logo" class="logo">
+                <h1>Aks Skills Academy</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="./about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>Aks Skills Academy is dedicated to providing high-quality coding education to children from the age of 5 to 19 years old. Our mission is to empower the next generation with essential digital skills that will prepare them for a rapidly evolving future.</p>
+        
+        <h3>Our Head: [Name of the Head]</h3>
+        <p><strong>Qualifications:</strong> [List of qualifications, e.g., M.Sc. in Computer Science, B.Ed.]</p>
+        <p><strong>Background:</strong> [A brief background about the head, e.g., "With over 10 years of experience in teaching coding and digital skills, [Name] has dedicated his career to fostering creativity and innovation in students. He has previously worked with renowned educational institutions and has developed several coding curricula tailored for young learners."]</p>
+
+        <h3>Meet Our Faculty Members</h3>
+        <div class="faculty-member">
+            <h4>[Teacher Name 1]</h4>
+            <p><strong>Qualifications:</strong> [List of qualifications, e.g., B.S. in Software Engineering]</p>
+            <p><strong>Experience:</strong> [Years of experience, e.g., "5 years of experience in teaching coding to kids."]</p>
+            <p><strong>About:</strong> [Brief description about the teacher, e.g., "Passionate about robotics and game development, [Name] inspires students to think creatively and analytically."]</p>
+        </div>
+
+        <div class="faculty-member">
+            <h4>[Teacher Name 2]</h4>
+            <p><strong>Qualifications:</strong> [List of qualifications, e.g., M.A. in Education]</p>
+            <p><strong>Experience:</strong> [Years of experience, e.g., "3 years of experience in mental math and coding."]</p>
+            <p><strong>About:</strong> [Brief description about the teacher, e.g., "With a love for teaching and mentoring, [Name] focuses on developing critical thinking skills through engaging math games and coding exercises."]</p>
+        </div>
+
+        <div class="faculty-member">
+            <h4>[Teacher Name 3]</h4>
+            <p><strong>Qualifications:</strong> [List of qualifications, e.g., B.S. in Computer Science]</p>
+            <p><strong>Experience:</strong> [Years of experience, e.g., "4 years of experience in app development and coding."]</p>
+            <p><strong>About:</strong> [Brief description about the teacher, e.g., "An expert in app development, [Name] guides students through real-world projects, fostering practical skills and creativity."]</p>
+        </div>
+
+        <h3>Our Manifesto</h3>
+        <p>At Aks Skills Academy, we believe in the power of coding to transform lives. Our manifesto encapsulates our commitment to providing accessible, engaging, and high-quality coding education to children:</p>
+        <ul>
+            <li><strong>Empowerment:</strong> We empower students by equipping them with essential digital skills that prepare them for the future.</li>
+            <li><strong>Creativity:</strong> We foster a creative environment where students can innovate and express their ideas through coding.</li>
+            <li><strong>Engagement:</strong> Our courses are designed to be fun, interactive, and engaging, ensuring students enjoy the learning process.</li>
+            <li><strong>Inclusivity:</strong> We welcome students of all backgrounds and abilities, making coding accessible to everyone.</li>
+            <li><strong>Continuous Learning:</strong> We promote a culture of lifelong learning, encouraging students to explore and expand their knowledge beyond the classroom.</li>
+        </ul>
+
+        <p>Together, we aim to cultivate a generation of thinkers, creators, and leaders who will shape the digital world of tomorrow.</p>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Aks Skills Academy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html

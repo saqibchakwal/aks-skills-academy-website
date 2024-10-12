@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible"content="ie=edge">
+        <title>
+            AKS SKILLS ACADEMY
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon-16x16.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+
+    </head>
+    <body>
+        <header>
+            <div class="container header-flex">
+                <div class="logo-section">
+                    <a href="aks academy.html"><img  src="AKS LOGO3.png" alt="logo of Aks Skills Academy" class="logo"></a>
+                    <h1> Aks Skills Academy</h1>
+                </div>
+                <div class="container">
+                    <!-- Social Media Links -->
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/profile.php?id=61553055724717&mibextid=ZbWKwL" target="_blank"><img src="facebook-icon.svg" alt="Facebook"></a>
+                        <a href="https://www.instagram.com" target="_blank"><img src="instagram-icon.svg" alt="Instagram"></a>
+                        <a href="https://wa.link/s7wvbi" target="_blank"><img src="whatsapp-icon.svg" alt="LinkedIn"></a>
+                        <a href="https://www.youtube.com" target="_blank"><img src="youtube-icon.svg" alt="Twitter"></a>
+                    </div>
+                </div>
+                    <nav>
+                    <ul>
+                        <li>
+                            <a href="aks academy.html">Home</a>
+                        </li>
+                        
+                        <li>
+                            <a href="about.html">About Us</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#contact">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#registarion">Register </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+            <!-- Courses Section -->
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="course-card" id="code-org">
+            <h3>Code.org</h3>
+            <img src="code.org.png" alt="Code.org Course">
+            <button onclick="showCurriculum('code-org', 1)">Level 1 Curriculum</button>
+            <button onclick="showCurriculum('code-org', 2)">Level 2 Curriculum</button>
+            <div id="code-org-level-1" class="curriculum-details hidden">
+                <h4>Level 1 Curriculum</h4>
+                <img src="images/roadmap1.png" alt="Code.org Level 1">
+            </div>
+            <div id="code-org-level-2" class="curriculum-details hidden">
+                <h4>Level 2 Curriculum</h4>
+                <img src="images/roadmap2.png" alt="Code.org Level 2">
+            </div>
+        </div>
+
+        <div class="course-card" id="scratch">
+            <h3>Scratch</h3>
+            <img src="scratch.png" alt="Scratch Course">
+            <button onclick="showCurriculum('scratch', 1)">Level 1 Curriculum</button>
+            <button onclick="showCurriculum('scratch', 2)">Level 2 Curriculum</button>
+            <div id="scratch-level-1" class="curriculum-details hidden">
+                <h4>Level 1 Curriculum</h4>
+                <img src="miss donia.jpg" alt="Scratch Level 1">
+            </div>
+            <div id="scratch-level-2" class="curriculum-details hidden">
+                <h4>Level 2 Curriculum</h4>
+                <img src="moeed diploma.jpg" alt="Scratch Level 2">
+            </div>
+        </div>
+
+        <div class="course-card" id="robotics">
+            <h3>Robotics</h3>
+            <img src="robotics.jpg" alt="Robotics Course">
+            <button onclick="showCurriculum('robotics', 1)">Level 1 Curriculum</button>
+            <button onclick="showCurriculum('robotics', 2)">Level 2 Curriculum</button>
+            <div id="robotics-level-1" class="curriculum-details hidden">
+                <h4>Level 1 Curriculum</h4>
+                <img src="robo cup.jpg" alt="Robotics Level 1">
+            </div>
+            <div id="robotics-level-2" class="curriculum-details hidden">
+                <h4>Level 2 Curriculum</h4>
+                <img src="robotics RCAP.jpg" alt="Robotics Level 2">
+            </div>
+        </div>
+
+        <div class="course-card" id="app-development">
+            <h3>App Development</h3>
+            <img src="app invertor.png" alt="App Development Course">
+            <button onclick="showCurriculum('app-development', 1)">Level 1 Curriculum</button>
+            <button onclick="showCurriculum('app-development', 2)">Level 2 Curriculum</button>
+            <div id="app-development-level-1" class="curriculum-details hidden">
+                <h4>Level 1 Curriculum</h4>
+                <img src="miss donia.jpg" alt="App Development Level 1">
+            </div>
+            <div id="app-development-level-2" class="curriculum-details hidden">
+                <h4>Level 2 Curriculum</h4>
+                <img src="app invertor.png" alt="App Development Level 2">
+            </div>
+        </div>
+
+        <div class="course-card" id="mental-math">
+            <h3>Mental Math</h3>
+            <img src="mental math.jpg" alt="Mental Math Course">
+            <button onclick="showCurriculum('mental-math', 1)">Level 1 Curriculum</button>
+            <button onclick="showCurriculum('mental-math', 2)">Level 2 Curriculum</button>
+            <div id="mental-math-level-1" class="curriculum-details hidden">
+                <h4>Level 1 Curriculum</h4>
+                <img src="images/mental-math-level1.jpg" alt="Mental Math Level 1">
+            </div>
+            <div id="mental-math-level-2" class="curriculum-details hidden">
+                <h4>Level 2 Curriculum</h4>
+                <img src="images/mental-math-level2.jpg" alt="Mental Math Level 2">
+            </div>
+        </div>
+
+        <div class="course-card" id="web-development">
+            <h3>Web Development for Kids</h3>
+            <img src="web development.jpg" alt="Web Development Course">
+            <button onclick="showCurriculum('web-development', 1)">Level 1 Curriculum</button>
+            <button onclick="showCurriculum('web-development', 2)">Level 2 Curriculum</button>
+            <div id="web-development-level-1" class="curriculum-details hidden">
+                <h4>Level 1 Curriculum</h4>
+                <img src="images/web-development-level1.jpg" alt="Web Development Level 1">
+            </div>
+            <div id="web-development-level-2" class="curriculum-details hidden">
+                <h4>Level 2 Curriculum</h4>
+                <img src="images/web-development-level2.jpg" alt="Web Development Level 2">
+            </div>
+        </div>
+
+        <div class="course-card" id="python">
+            <h3>Python for Kids</h3>
+            <img src="python.png" alt="Python Course">
+            <button onclick="showCurriculum('python', 1)">Level 1 Curriculum</button>
+            <button onclick="showCurriculum('python', 2)">Level 2 Curriculum</button>
+            <div id="python-level-1" class="curriculum-details hidden">
+                <h4>Level 1 Curriculum</h4>
+                <img src="images/python-level1.jpg" alt="Python Level 1">
+            </div>
+            <div id="python-level-2" class="curriculum-details hidden">
+                <h4>Level 2 Curriculum</h4>
+                <img src="images/python-level2.jpg" alt="Python Level 2">
+            </div>
+        </div>
+    </section> 
+        <section id="contact" class="container">
+            <h2>Contact Us</h2>
+            <p>Email:info@aksskillsacademy.com</p>
+            <p>Phone:+92-3221418272</p>
+        </section>
+        <footer>
+            <footer>
+                <div class="container">
+                   
+                    <!-- Social Media Links -->
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/profile.php?id=61553055724717&mibextid=ZbWKwL" target="_blank"><img src="facebook-icon.svg" alt="Facebook"></a>
+                        <a href="https://www.instagram.com" target="_blank"><img src="instagram-icon.svg" alt="Instagram"></a>
+                        <a href="https://wa.link/s7wvbi" target="_blank"><img src="whatsapp-icon.svg" alt="LinkedIn"></a>
+                        <a href="https://www.youtube.com" target="_blank"><img src="youtube-icon.svg" alt="Twitter"></a>
+                    </div>
+                </div>
+            </footer>
+            <div class="container">
+                <p>&copy; 2024 Aks Skills Academy. All rights reserved</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
